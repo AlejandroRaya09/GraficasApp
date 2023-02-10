@@ -1,0 +1,22 @@
+<h1>Graficas Dobles</h1>
+<hr>
+
+<div class="row">
+    <div class="col-md-6">
+        Grafica 1
+        
+        <app-grafica-barra [horizontal]="true"
+                           [barChartData]="productoData"
+                           [Labels]="proveedoresLabels"></app-grafica-barra>
+    </div>
+
+
+    <div class="col-md-6">
+        Grafica 2
+
+        <app-grafica-barra [barChartData]="proveedoresData"
+                           [Labels]="proveedoresLabels"></app-grafica-barra>
+    </div>
+
+
+</div>
